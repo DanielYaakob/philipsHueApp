@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Light Controls</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="scripts.js"></script>
+        <script type="text/javascript" src="/eel.js"></script>
+    </head>
+    <body onload="get_initial_states()">
+        <h3>Groups</h3>
+            <button onclick="toggle_all()" id="all">All Lights</button>
+            <button onclick="toggle_living_room()" id="Living Room">Living Room</button>
+
+        <h3>Custom Actions</h3>
+            <button onclick="strobe_living_room()" id="strobeLivingRoom">Living Room Strobe</button>
+
+        <h3>All Lights</h3>
+            <button onclick="toggle_chandelier_1()" id="Chandelier 1">Chandelier 1</button>
+            <button onclick="toggle_chandelier_2()" id="Chandelier 2">Chandelier 2</button>
+            <button onclick="toggle_couch_left()" id="Couch Left">Couch Left</button>
+            <button onclick="toggle_couch_right()" id="Couch Right">Couch Right</button>
+
+    </body>
+</html>
